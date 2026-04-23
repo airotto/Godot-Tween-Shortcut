@@ -16,10 +16,10 @@ func _ready() -> void:
 
 2. Hover your mouse over “tween” on line 5.
 3. Please remember the title of the tooltip.
-4. In English, the tooltip title should read: `Local Variable tween: Tween`
+   - In English, the tooltip title should read: `Local Variable tween: Tween`
 
-5. Open “res://addons/tween_shortcut/scene/worker.gd”.
-6. Please configure the following variables to match your language.
+4. Open “res://addons/tween_shortcut/scene/worker.gd”.
+5. Please configure the following variables to match your language.
 
 - LOCAL_VARIABLE_TITLE_TEXT
   - Please set the text displayed in blue in the tooltip title. (Use `"Local Variable"` for English.)
@@ -29,7 +29,7 @@ func _ready() -> void:
   - Please specify the character used to determine whether a class name is “Tween”. (Use `" Tween"` for English.)
   - “It's `" Tween"`, not `"Tween"`. You need a space.” There's a space after the `":"`
 
-7. You can safely delete the script you created in Step 5.
+6. You can safely delete the script you created in Step 1.
 
 
 
