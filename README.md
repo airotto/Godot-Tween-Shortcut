@@ -3,20 +3,22 @@
 # Godot Tween Shortcut
 
 ## Setup
-1. Open “res://addons/tween_shortcut/scene/worker.gd”.
-2. Please create a new script and paste the following code into it.
+
+1. Please create a new script and paste the following code into it.
 
 ```gdscript
 extends Node
 
 func _ready() -> void:
 	var tween : Tween
-	tween
+	tween ##Hover here line
 ```
 
-3. Hover your mouse over “tween” on line 5.
-4. Please remember the title of the tooltip.
-5. In English, the tooltip title should read: `Local Variable tween: Tween`
+2. Hover your mouse over “tween” on line 5.
+3. Please remember the title of the tooltip.
+4. In English, the tooltip title should read: `Local Variable tween: Tween`
+
+5. Open “res://addons/tween_shortcut/scene/worker.gd”.
 6. Please configure the following variables to match your language.
 
 - LOCAL_VARIABLE_TITLE_TEXT
@@ -27,7 +29,7 @@ func _ready() -> void:
   - Please specify the character used to determine whether a class name is “Tween”. (Use `" Tween"` for English.)
   - “It's `" Tween"`, not `"Tween"`. You need a space.” There's a space after the `":"`
 
-7. You can safely delete the script you created in Step 2.
+7. You can safely delete the script you created in Step 5.
 
 
 
