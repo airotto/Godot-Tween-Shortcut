@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://x6aiyg6l6t6n"]
+
+[ext_resource type="Script" uid="uid://2b882ev7milk" path="res://addons/tween_shortcut/scene/tween_shortcut_container.gd" id="1_ke8t8"]
+
+[node name="TweenShortcutContainer" type="PanelContainer" unique_id=1446994088]
+offset_right = 51.0
+offset_bottom = 35.0
+size_flags_horizontal = 6
+size_flags_vertical = 4
+script = ExtResource("1_ke8t8")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1013607884]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer" unique_id=1948827575]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+columns = 4
+
+[node name="Space" type="Control" parent="VBoxContainer" unique_id=878073181]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="EaseSelectContainer" type="HBoxContainer" parent="." unique_id=1459674024]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.078431375)
+layout_mode = 2
+
+[node name="ButtonEaseOut" type="Button" parent="EaseSelectContainer" unique_id=879287919]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ButtonEaseOutIn" type="Button" parent="EaseSelectContainer" unique_id=118079367]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ButtonEaseInOut" type="Button" parent="EaseSelectContainer" unique_id=791605151]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ButtonEaseIn" type="Button" parent="EaseSelectContainer" unique_id=696548960]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
