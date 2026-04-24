@@ -2,6 +2,8 @@
 
 # Godot Tween Shortcut
 
+https://github.com/user-attachments/assets/147f1904-99fb-49b5-a17c-6e14e44f2bbe
+
 ## Setup
 
 1. Please create a new script and paste the following code into it.
