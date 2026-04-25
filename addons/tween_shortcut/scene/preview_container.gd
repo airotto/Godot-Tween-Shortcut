@@ -1,6 +1,10 @@
 @tool
 extends PanelContainer
 
+@export var PREVIEW_SIZE:Vector2 = Vector2.ONE * 200
+
+
+
 @onready var type_select_container: VBoxContainer = $VBoxContainer/TypeSelectContainer
 @onready var type_control_container: PanelContainer = %TypeControlContainer
 @onready var preview: ColorRect = %Preview
@@ -9,12 +13,14 @@ var button_group := ButtonGroup.new()
 
 
 func _ready() -> void:
+	if not $"../..".instanced:return
+	
 	var stylebox := StyleBoxFlat.new()
 	stylebox.bg_color = Color(1, 1, 1, 0.1)
 	stylebox.set_corner_radius_all(5)
 	type_control_container.add_theme_stylebox_override(&"panel", stylebox)
 	
-	type_control_container.custom_minimum_size = Vector2.ONE * 200
+	preview.custom_minimum_size = PREVIEW_SIZE
 	
 	preview.material = ShaderMaterial.new()
 	create_type(get_theme_icon(&"ToolMove", &"EditorIcons"), "Move", preload("uid://4ue0l4kul2fu"), true)

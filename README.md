@@ -13,6 +13,10 @@ https://github.com/user-attachments/assets/147f1904-99fb-49b5-a17c-6e14e44f2bbe
 - GRAPH_SIZE
   - This is the displayed size. Generally, this is the setting you should adjust.
 
+2. Open "res://addons/tween_shortcut/scene/preview_container.gd".
+- PREVIEW_SIZE
+  - Preview size.
+
 ## 
 This was created using Godot 4.6.2.
 

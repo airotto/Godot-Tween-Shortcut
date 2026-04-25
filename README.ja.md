@@ -11,6 +11,10 @@ https://github.com/user-attachments/assets/0d3d7167-8f7f-4e1f-81d5-5f261299ddb0
 - GRAPH_SIZE
   - 表示されるサイズです。通常、ここを変更するのがよいでしょう
 
+2. このスクリプトを開いてください "res://addons/tween_shortcut/scene/preview_container.gd".
+- PREVIEW_SIZE
+  - プレビューのサイズ
+
 ## 
 Godot 4.6.2で作成されました。
 

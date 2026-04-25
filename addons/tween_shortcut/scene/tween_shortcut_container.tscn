@@ -3,13 +3,6 @@
 [ext_resource type="Script" uid="uid://2b882ev7milk" path="res://addons/tween_shortcut/scene/tween_shortcut_container.gd" id="1_ke8t8"]
 [ext_resource type="Script" uid="uid://fqyeyjng43x3" path="res://addons/tween_shortcut/scene/preview_container.gd" id="2_irucw"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_irucw"]
-bg_color = Color(1, 1, 1, 0.1)
-corner_radius_top_left = 5
-corner_radius_top_right = 5
-corner_radius_bottom_right = 5
-corner_radius_bottom_left = 5
-
 [node name="TweenShortcutContainer" type="PanelContainer" unique_id=1446994088]
 offset_right = 451.0
 offset_bottom = 281.0
@@ -62,14 +55,12 @@ alignment = 1
 
 [node name="TypeControlContainer" type="PanelContainer" parent="HBoxContainer/PreviewContainer/VBoxContainer" unique_id=401517356]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 size_flags_horizontal = 8
 tooltip_text = "Right-click on the graph to view a preview here.
 
 Red: Negative
 Blue: Exceeds the final value"
-theme_override_styles/panel = SubResource("StyleBoxFlat_irucw")
 
 [node name="Preview" type="ColorRect" parent="HBoxContainer/PreviewContainer/VBoxContainer/TypeControlContainer" unique_id=229807801]
 unique_name_in_owner = true
