@@ -1,6 +1,6 @@
 # Godot Tween Shortcut
 
-https://github.com/user-attachments/assets/0d3d7167-8f7f-4e1f-81d5-5f261299ddb0
+https://github.com/user-attachments/assets/5f6b8d64-48d1-424b-b79a-c273585d60b2
 
 ## サイズ設定
 1. このスクリプトを開いてください: "res://addons/tween_shortcut/scene/graph_panel.gd"
