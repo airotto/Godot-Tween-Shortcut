@@ -2,7 +2,7 @@
 
 # Godot Tween Shortcut
 
-https://github.com/user-attachments/assets/147f1904-99fb-49b5-a17c-6e14e44f2bbe
+https://github.com/user-attachments/assets/5f6b8d64-48d1-424b-b79a-c273585d60b2
 
 ## Size settings
 1. Open "res://addons/tween_shortcut/scene/graph_panel.gd".
