@@ -2,6 +2,10 @@
 
 # Godot Tween Shortcut
 
+## Features of this plugin:
+- You can select a graph from the visual interface and insert `set_ease()` or `set_trans()` into your code.
+- You can preview the tween.
+
 https://github.com/user-attachments/assets/5f6b8d64-48d1-424b-b79a-c273585d60b2
 
 ## Size settings

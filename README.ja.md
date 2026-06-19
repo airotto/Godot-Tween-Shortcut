@@ -1,5 +1,9 @@
 # Godot Tween Shortcut
 
+## このプラグインで出来ること:
+- tweenの `set_ease()` と` set_trans()` を視覚的なグラフから選んでコードに挿入できます。
+- ツイーンをプレビューできます。
+
 https://github.com/user-attachments/assets/5f6b8d64-48d1-424b-b79a-c273585d60b2
 
 ## サイズ設定
