@@ -18,6 +18,9 @@ https://github.com/user-attachments/assets/5f6b8d64-48d1-424b-b79a-c273585d60b2
   - Preview size.
 
 ## 
-This was created using Godot 4.6.2.
+Supported Versions (Previous versions are available on the branch):
+- 4.7
+- 4.6.3
+- 4.6.2
 
 Since it relies on undocumented internal nodes, it may stop working after an update.
