@@ -44,6 +44,9 @@ var curve_texture_cache:Dictionary[Tween.TransitionType, Dictionary]
 func _on_symbol_hovered(symbol: String, line: int, _column: int, code_edit:CodeEdit) -> void:
 	if code_edit == null:return
 	
+	##godot4.7 から1フレーム後にtooltipが出現するように変わってたので待つ
+	await get_tree().process_frame
+	
 	##表示時のみノードが生成されるのでホバーごとにトリガー
 	##ツールチップを取得
 	## 未公開のクラス EditorHelpBitTooltip
