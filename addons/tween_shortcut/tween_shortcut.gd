@@ -69,9 +69,7 @@ func _on_symbol_hovered(symbol: String, line: int, _column: int, code_edit:CodeE
 	##SymbolType symbol_name: Type = variant
 	var title_text:String = title_label.get_parsed_text()
 	
-	if "(" in title_text:## function
-		return
-	elif ":" in title_text:## property
+	if ":" in title_text:## property
 		pass
 	else: ## class
 		return
